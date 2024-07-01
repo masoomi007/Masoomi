@@ -70,16 +70,16 @@ module.exports = {
   errorChat: process.env.ERROR_CHAT || "923004223507",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-zFmgXy0ju2k8LwOFhz4HT3BlbkFJGj86Ho967er5m4PXZXJS",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "chat.whatsapp.com",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
-  LANG: (process.env.THEME || "WASI").toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "false",
+  LANG: (process.env.THEME || "SF").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
